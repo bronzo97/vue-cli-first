@@ -1,18 +1,18 @@
 <template>
 <div>
-    <TitleT></TitleT>
+    <FirstTitle></FirstTitle>
 </div>  
 </template>
 
 <script>
-import TitleT from './components/TitleT.vue'
+import FirstTitle from './components/FirstTitle.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
 //     HelloWorld,
-    TitleT,
+    FirstTitle,
   }
 }
 </script>
